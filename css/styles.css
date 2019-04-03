@@ -1,0 +1,197 @@
+/*#3E4E50 #19323C #F3F7F0 #8C5E58 #A93F55 #A3BBAD #357266 #0E3B43 #312509 #BDB246*/
+/* HEADER */
+header {
+  height: 100vh;
+  background-image: url("../images/vaso.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar-brand {
+  font-family: 'Germania One', cursive;
+  color: #EDEDEF !important;
+}
+
+.banner-center {
+  height: 100vh;
+  color: #F0F794;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 5;
+}
+
+@media (min-width: 768px) {
+  .banner-center {
+    margin-left: 10rem;
+  }
+
+  #conocer {
+    margin-left: 4rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-center {
+    padding: 7% 3%;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: 'Germania One', cursive;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#conocer {
+  color: #F0F794;
+  border-color: #F0F794;
+  border: 2px solid;
+  font-family: 'Crete Round', serif;
+}
+
+/* .conocer:hover {
+  font-weight: bold;
+  color: #EDF760;
+} */
+
+/* INFO */
+#info {
+  background-color: #FFF;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-family: 'Crete Round', serif;
+}
+
+.title {
+  margin: 3rem;
+  color: #777373;
+}
+
+.fas {
+  color: #777373;
+}
+
+.info {
+  color: #777373;
+}
+
+p {
+  color: #A59F9F;
+}
+
+.title-2 {
+  font-family: 'Crete Round', serif;
+}
+
+.title-3 {
+  font-family: 'Crete Round', serif;
+}
+
+#carrusel {
+  background-color: #EDEDEF;
+}
+
+#descripción {
+  background-color: #FAFAFF;
+  padding: 5% 7%;
+}
+
+#nosotros {
+  color: #363544;
+  padding-top: 5%;
+}
+
+#reservas {
+  padding-top: 5%;
+}
+
+.text-2 {
+  color: #363544;
+}
+
+#formulario {
+  background-color: #FAFAFF;
+}
+
+#road {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+#mapa {
+  background-color: #EDEDEF;
+}
+
+#adress {
+  padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  #formulario {
+    background-color: #EDEDEF;
+  }
+
+  #mapa {
+    background-color: #FAFAFF;
+  }
+}
+
+form {
+  padding: 3% 3%;
+  font-family: 'Crete Round', serif;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #F4FEFF;
+  padding-bottom: 2rem;
+}
+
+.fab {
+  color: #363544;
+  font-size: 1rem;
+  padding: 3%;
+  font-weight: bold;
+}
+
+.fab:hover {
+  color: #696784;
+}
+
+h6 {
+  font-family: 'Crete Round', serif;
+
+}
+
+#nombre-f  {
+    font-family: 'Germania One', cursive;
+    padding-top: 1%;
+}
+
+@media (min-width: 768px) {
+  .fab {
+    font-size: 2rem;
+  }
+}
+
+#rights {
+  font-family: 'Crete Round', serif;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
